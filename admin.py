@@ -2,7 +2,7 @@ from database import fetch_all
 import time
 
 class Admin:
-    def __init__(self, username="admin", password="PASSWORD"):
+    def __init__(self, username="admin", password= ${{ secrets.PASSWORD }}:
         self.__username = username
         self.__password = password
 
